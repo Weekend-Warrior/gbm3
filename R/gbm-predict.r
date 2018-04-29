@@ -120,7 +120,7 @@ predict.GBMFit <- function(object, newdata, n.trees,
   if (nodes) {
 
     sparse_nodes_info <- .Call("gbm_pred_sparse_nodes",
-      X=as.matrix(as.data.frame(x)),
+      X='attr<-'(unlist(unclass(x)), 'dim', dim(x)),
       n.trees=as.integer(n.trees[order(n.trees)]),
       trees=trees(object),
       c.split=object$c.split,
@@ -131,7 +131,7 @@ predict.GBMFit <- function(object, newdata, n.trees,
   }
 
   predF <- .Call("gbm_pred",
-                 X=as.matrix(as.data.frame(x)),
+                 X='attr<-'(unlist(unclass(x)), 'dim', dim(x)),
                  n.trees=as.integer(n.trees[order(n.trees)]),
                  initF=object$initF,
                  trees=trees(object),
