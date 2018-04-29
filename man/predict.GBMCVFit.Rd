@@ -33,4 +33,3 @@ model from gbm2.
 \author{
 James Hickey
 }
-

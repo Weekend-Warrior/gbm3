@@ -28,7 +28,8 @@ Imports:
     survival,
     lattice,
     splines,
-    Rcpp (>= 0.11.5)
+    Rcpp (>= 0.11.5),
+    Matrix
 Suggests:
     testthat (>= 0.11.0),
     knitr,
@@ -44,5 +45,5 @@ Description: Extensions
     and Learning to Rank measures (LambdaMART).
 License: GPL (>= 2) | file LICENSE
 URL: https://github.com/gbm-developers/gbm3
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 LinkingTo: Rcpp
