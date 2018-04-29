@@ -78,4 +78,3 @@ Fits a generalized boosting model.  This is for "power" users who
 have a large number of variables who wish to avoid calling
 \code{model.frame} which can be slow in this instance.
 }
-

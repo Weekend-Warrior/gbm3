@@ -2,6 +2,7 @@
 % Please edit documentation in R/gbm-interactions.r
 \name{interact}
 \alias{interact}
+\alias{interact}
 \alias{interact.GBMFit}
 \title{Estimate the strength of interaction effects}
 \usage{
@@ -45,9 +46,6 @@ is in the selected model (relative influence is zero), the result will be
 0/0. Also, with weak main effects, rounding errors can result in values of H
 > 1 which are not possible.
 }
-\author{
-Greg Ridgeway \email{gregridgeway@gmail.com}
-}
 \references{
 J.H. Friedman and B.E. Popescu (2005). \dQuote{Predictive
 Learning via Rule Ensembles.} Section 8.1
@@ -55,5 +53,7 @@ Learning via Rule Ensembles.} Section 8.1
 \seealso{
 \code{\link{gbmt}}
 }
+\author{
+Greg Ridgeway \email{gregridgeway@gmail.com}
+}
 \keyword{methods}
-

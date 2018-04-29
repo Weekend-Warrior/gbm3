@@ -45,4 +45,3 @@ provided for the fit.
 Method to perform additional boosting using a \code{GBMFit} object
 - does not support further cross validation.
 }
-

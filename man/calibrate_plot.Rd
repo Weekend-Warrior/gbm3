@@ -69,9 +69,6 @@ p <- predict(glm1,type="response")
 calibrate_plot(y, p, xlim=c(0,0.6), ylim=c(0,0.6))
 }
 }
-\author{
-James Hickey, Greg Ridgeway \email{gregridgeway@gmail.com}
-}
 \references{
 J.F. Yates (1982). "External correspondence: decomposition of
 the mean probability score," Organisational Behaviour and Human Performance
@@ -80,5 +77,7 @@ the mean probability score," Organisational Behaviour and Human Performance
 D.J. Spiegelhalter (1986). "Probabilistic Prediction in Patient Management
 and Clinical Trials," Statistics in Medicine 5:421-433.
 }
+\author{
+James Hickey, Greg Ridgeway \email{gregridgeway@gmail.com}
+}
 \keyword{hplot}
-

@@ -75,4 +75,3 @@ Generates distribution object for gbmt.
 \author{
 James Hickey
 }
-

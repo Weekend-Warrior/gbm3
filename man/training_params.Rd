@@ -47,4 +47,3 @@ Class that contains the training parameters for the gbm model
 \author{
 James Hickey
 }
-

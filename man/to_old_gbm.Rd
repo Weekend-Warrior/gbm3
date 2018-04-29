@@ -20,4 +20,3 @@ Version 2.1 of the package.
 \author{
 James Hickey
 }
-

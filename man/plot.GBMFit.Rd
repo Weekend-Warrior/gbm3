@@ -77,4 +77,3 @@ Boosting Machine," Annals of Statistics 29(4).
 \code{\link{gbmt}}, \code{\link[graphics]{plot}}
 }
 \keyword{hplot}
-

@@ -157,4 +157,3 @@ plot(gbm1,1:3,best.iter)
 print(pretty_gbm_tree(gbm1,1))
 print(pretty_gbm_tree(gbm1, gbm1$params$num_trees))
 }
-

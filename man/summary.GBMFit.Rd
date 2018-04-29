@@ -61,9 +61,6 @@ iteration. It describes the relative influence of each variable in
 reducing the loss function. See the references below for exact
 details on the computation.
 }
-\author{
-James Hickey, Greg Ridgeway \email{gregridgeway@gmail.com}
-}
 \references{
 J.H. Friedman (2001). "Greedy Function Approximation: A
 Gradient Boosting Machine," Annals of Statistics 29(5):1189-1232.
@@ -73,5 +70,7 @@ L. Breiman (2001). \href{https://www.stat.berkeley.edu/~breiman/randomforest2001
 \seealso{
 \code{\link{gbmt}}
 }
+\author{
+James Hickey, Greg Ridgeway \email{gregridgeway@gmail.com}
+}
 \keyword{hplot}
-

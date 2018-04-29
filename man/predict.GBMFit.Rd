@@ -67,4 +67,3 @@ to fit the model.
 }
 \keyword{models}
 \keyword{regression}
-

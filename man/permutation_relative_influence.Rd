@@ -41,13 +41,12 @@ measure is similar to the variable importance measures Breiman uses
 for random forests, but \code{\link{gbmt}} currently computes using
 the entire training dataset (not the out-of-bag observations).
 }
-\author{
-Greg Ridgeway \email{gregridgeway@gmail.com}
-}
 \seealso{
 \code{\link{summary.GBMFit}}
 \href{https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf}{Random
 Forests}.
 }
+\author{
+Greg Ridgeway \email{gregridgeway@gmail.com}
+}
 \keyword{hplot}
-
