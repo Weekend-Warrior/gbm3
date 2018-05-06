@@ -30,5 +30,5 @@ gbm_cv_errors.GBMCVFit <- function(gbm_cv_fit, cv_folds, cv_group) {
                      }, double(gbm_cv_fit[[1]]$params$num_trees))
   ## this is now a (num_trees, cv_folds) matrix
   ## and now a n.trees vector
-  return(rowSums(cv_error) / gbm_cv_fit[[1]]$params$num_train)
+  return(rowSums(as.matrix(cv_error)) / gbm_cv_fit[[1]]$params$num_train)
 }
